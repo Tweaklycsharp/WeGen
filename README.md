@@ -22,7 +22,7 @@ Un dashboard moderne et élégant pour générer des comptes automatiquement ave
 
 ```bash
 # Cloner le projet
-git clone https://github.com/votre-username/wegen.git
+git clone https://github.com/Tweaklycsharp/wegen.git
 cd wegen
 
 # Installer les dépendances
