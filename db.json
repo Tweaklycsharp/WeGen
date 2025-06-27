@@ -1,0 +1,307 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "demo",
+      "email": "demo@exemple.com",
+      "password": "demo1234",
+      "fullName": "Utilisateur Démo",
+      "createdAt": "2023-01-01T00:00:00.000Z",
+      "lastLogin": "2025-06-27T01:00:00.000Z",
+      "accountsGenerated": 5,
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=68",
+      "settings": {
+        "theme": "light",
+        "language": "fr",
+        "notificationsEnabled": true,
+        "autoLogout": 30,
+        "securityLevel": "standard"
+      }
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "email": "admin@wegen.com",
+      "password": "admin1234",
+      "fullName": "Administrateur",
+      "createdAt": "2023-01-01T00:00:00.000Z",
+      "lastLogin": "2025-06-26T23:30:00.000Z",
+      "accountsGenerated": 15,
+      "role": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "settings": {
+        "theme": "dark",
+        "language": "fr",
+        "notificationsEnabled": true,
+        "autoLogout": 60,
+        "securityLevel": "high"
+      }
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc_1",
+      "userId": "1",
+      "type": "email",
+      "service": "gmail",
+      "username": "user7842",
+      "email": "user7842@gmail.com",
+      "password": "P@ssw0rd!23",
+      "isPremium": false,
+      "createdAt": "2025-06-25T14:32:11.000Z",
+      "expiresAt": "2025-07-25T14:32:11.000Z",
+      "status": "active",
+      "notes": "Compte créé pour test"
+    },
+    {
+      "id": "acc_2",
+      "userId": "1",
+      "type": "streaming",
+      "service": "netflix",
+      "username": "netflixuser456",
+      "password": "Str3@ming!",
+      "isPremium": true,
+      "createdAt": "2025-06-24T09:15:22.000Z",
+      "expiresAt": "2025-07-24T09:15:22.000Z",
+      "status": "active",
+      "notes": "Compte premium"
+    },
+    {
+      "id": "acc_3",
+      "userId": "1",
+      "type": "gaming",
+      "service": "steam",
+      "username": "gameplayer2025",
+      "password": "G@m3r4Life!",
+      "isPremium": false,
+      "createdAt": "2025-06-23T18:45:30.000Z",
+      "expiresAt": "2025-07-23T18:45:30.000Z",
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "id": "acc_4",
+      "userId": "1",
+      "type": "vpn",
+      "service": "nordvpn",
+      "username": "securevpnuser",
+      "password": "VPNs3cur3!",
+      "isPremium": true,
+      "createdAt": "2025-06-22T11:20:15.000Z",
+      "expiresAt": "2025-07-22T11:20:15.000Z",
+      "status": "active",
+      "notes": "Compte VPN premium"
+    },
+    {
+      "id": "acc_5",
+      "userId": "1",
+      "type": "social",
+      "service": "twitter",
+      "username": "tweetuser2025",
+      "password": "Tw33t!2025",
+      "isPremium": false,
+      "createdAt": "2025-06-21T15:10:45.000Z",
+      "expiresAt": "2025-07-21T15:10:45.000Z",
+      "status": "expired",
+      "notes": "Compte expiré"
+    },
+    {
+      "id": "acc_6",
+      "userId": "2",
+      "type": "email",
+      "service": "outlook",
+      "username": "adminmail",
+      "email": "adminmail@outlook.com",
+      "password": "Adm1n!M@il",
+      "isPremium": true,
+      "createdAt": "2025-06-26T08:30:00.000Z",
+      "expiresAt": "2025-07-26T08:30:00.000Z",
+      "status": "active",
+      "notes": "Compte administrateur"
+    },
+    {
+      "id": "acc_7",
+      "userId": "2",
+      "type": "streaming",
+      "service": "disney",
+      "username": "disneyadmin",
+      "password": "D!sn3yPlu$",
+      "isPremium": true,
+      "createdAt": "2025-06-25T16:45:20.000Z",
+      "expiresAt": "2025-07-25T16:45:20.000Z",
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "id": "1750986762132",
+      "type": "email",
+      "service": "Gmail",
+      "username": "ultra_lover616",
+      "password": "n=ACn,fwlw>K*Hc^",
+      "isPremium": true,
+      "createdAt": "2025-06-27T01:12:42.132Z",
+      "expiresAt": "2025-07-27T01:12:42.133Z",
+      "email": "ultra_lover616@gmail.com"
+    },
+    {
+      "id": "1750986814238",
+      "type": "other",
+      "service": "VPN",
+      "username": "mega_star5285",
+      "password": "ixiyAqs=6CP*CSfd",
+      "isPremium": true,
+      "createdAt": "2025-06-27T01:13:34.238Z",
+      "expiresAt": "2025-07-27T01:13:34.238Z"
+    }
+  ],
+  "stats": {
+    "totalAccounts": 7,
+    "activeAccounts": 6,
+    "expiredAccounts": 1,
+    "premiumAccounts": 4,
+    "mostPopularService": "email",
+    "lastGeneratedAt": "2025-06-26T08:30:00.000Z",
+    "accountsByType": {
+      "email": 2,
+      "streaming": 2,
+      "gaming": 1,
+      "vpn": 1,
+      "social": 1
+    }
+  },
+  "services": [
+    {
+      "id": "email",
+      "name": "Email",
+      "description": "Comptes de messagerie électronique",
+      "providers": [
+        {
+          "id": "gmail",
+          "name": "Gmail",
+          "icon": "gmail",
+          "domains": [
+            "gmail.com",
+            "googlemail.com"
+          ],
+          "premium": false
+        },
+        {
+          "id": "outlook",
+          "name": "Outlook",
+          "icon": "outlook",
+          "domains": [
+            "outlook.com",
+            "hotmail.com",
+            "live.com"
+          ],
+          "premium": false
+        },
+        {
+          "id": "protonmail",
+          "name": "ProtonMail",
+          "icon": "protonmail",
+          "domains": [
+            "protonmail.com",
+            "proton.me"
+          ],
+          "premium": true
+        }
+      ]
+    },
+    {
+      "id": "streaming",
+      "name": "Streaming",
+      "description": "Services de streaming vidéo et audio",
+      "providers": [
+        {
+          "id": "netflix",
+          "name": "Netflix",
+          "icon": "netflix",
+          "premium": true
+        },
+        {
+          "id": "disney",
+          "name": "Disney+",
+          "icon": "disney",
+          "premium": true
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "icon": "spotify",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "description": "Plateformes de jeux vidéo",
+      "providers": [
+        {
+          "id": "steam",
+          "name": "Steam",
+          "icon": "steam",
+          "premium": false
+        },
+        {
+          "id": "epic",
+          "name": "Epic Games",
+          "icon": "epic",
+          "premium": false
+        },
+        {
+          "id": "xbox",
+          "name": "Xbox",
+          "icon": "xbox",
+          "premium": true
+        }
+      ]
+    },
+    {
+      "id": "vpn",
+      "name": "VPN",
+      "description": "Services de réseau privé virtuel",
+      "providers": [
+        {
+          "id": "nordvpn",
+          "name": "NordVPN",
+          "icon": "nordvpn",
+          "premium": true
+        },
+        {
+          "id": "expressvpn",
+          "name": "ExpressVPN",
+          "icon": "expressvpn",
+          "premium": true
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "description": "Réseaux sociaux",
+      "providers": [
+        {
+          "id": "twitter",
+          "name": "Twitter",
+          "icon": "twitter",
+          "premium": false
+        },
+        {
+          "id": "instagram",
+          "name": "Instagram",
+          "icon": "instagram",
+          "premium": false
+        },
+        {
+          "id": "facebook",
+          "name": "Facebook",
+          "icon": "facebook",
+          "premium": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-secondary-800 dark:text-secondary-100;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500 dark:bg-primary-500 dark:hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply btn bg-secondary-200 text-secondary-800 hover:bg-secondary-300 focus:ring-secondary-300 dark:bg-secondary-700 dark:text-secondary-100 dark:hover:bg-secondary-600;
+  }
+
+  .btn-danger {
+    @apply btn bg-danger-500 text-white hover:bg-danger-600 focus:ring-danger-500;
+  }
+
+  .btn-outline {
+    @apply btn border border-secondary-300 bg-transparent text-secondary-800 hover:bg-secondary-100 focus:ring-secondary-300 dark:border-secondary-600 dark:text-secondary-200 dark:hover:bg-secondary-800;
+  }
+
+  .input {
+    @apply block w-full px-3 py-2 text-sm bg-white border border-secondary-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-secondary-800 dark:border-secondary-700 dark:text-secondary-100;
+  }
+
+  .label {
+    @apply block mb-1 text-sm font-medium text-secondary-700 dark:text-secondary-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-card border border-secondary-200 transition-shadow duration-200 dark:bg-secondary-800 dark:border-secondary-700;
+  }
+
+  .card-hover {
+    @apply hover:shadow-card-hover;
+  }
+
+  .toast-container {
+    @apply dark:text-secondary-100;
+  }
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
